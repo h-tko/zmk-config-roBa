@@ -42,8 +42,8 @@
         };
 
         toggle_kana {
-            bindings = <&kp LS(LC(J))>;
-            key-positions = <0 1>;
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <3 2>;
         };
     };
 
