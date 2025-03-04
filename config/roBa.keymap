@@ -72,10 +72,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W             &kp E         &kp R                        &kp T                                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &lt 1 S           &lt 2 D       &lt 3 F                      &kp G        &kp LEFT_SHIFT                     &mt LEFT_PARENTHESIS MINUS        &lt 4 H      &kp J  &kp K      &kp L    &kp DELETE
-&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                        &kp B        &mt EXCLAMATION QUESTION           &mt RIGHT_PARENTHESIS UNDERSCORE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
-&kp LCTRL         &kp LEFT_COMMAND  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp LC(SPACE)                     &lt 1 ENTER                             &kp ESC
+&kp Q             &kp W                   &kp E         &kp R                        &kp T                                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &lt 1 S                 &lt 2 D       &lt 3 F                      &kp G        &kp LEFT_SHIFT                     &mt LEFT_PARENTHESIS MINUS        &lt 4 H      &kp J  &kp K      &kp L    &kp DELETE
+&mt LEFT_SHIFT Z  &mt LA(LEFT_COMMAND) X  &kp C         &kp V                        &kp B        &mt EXCLAMATION QUESTION           &mt RIGHT_PARENTHESIS UNDERSCORE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
+&kp LCTRL         &kp LEFT_COMMAND        &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp LC(SPACE)                     &lt 1 ENTER                             &kp ESC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
