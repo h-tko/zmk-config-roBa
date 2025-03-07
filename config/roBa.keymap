@@ -40,11 +40,6 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
-
-        toggle_kana {
-            bindings = <&kp LC(SPACE)>;
-            key-positions = <3 2>;
-        };
     };
 
     macros {
