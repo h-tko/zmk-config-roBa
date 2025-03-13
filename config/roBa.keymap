@@ -112,6 +112,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
@@ -150,9 +152,5 @@
 
             tap-ms = <20>;
         };
-
-        // 設定したいレイヤー
-
-        sensor-bindings = <&scroll_up_down>;
     };
 };
