@@ -87,7 +87,7 @@
 &kp LCTRL         &kp LEFT_ALT            &kp LEFT_COMMAND  &mt LS(LG(LCTRL)) LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 3 ESCAPE       &kp DELETE                        &mt LEFT_SHIFT LC(SPACE)                             &kp CAPSLOCK
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         NUM_FUN {
