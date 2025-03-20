@@ -3,6 +3,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+// マウスレイヤーへの自動移行を無効化
+#define CONFIG_ZMK_MOUSE_TICK_DURATION 0
+
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
