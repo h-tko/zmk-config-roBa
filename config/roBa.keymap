@@ -69,9 +69,10 @@
         };
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-        	compatible = "zmk,behavior-sensor-rotate";
-        	#sensor-binding-cells = <0>;
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             tap-ms = <20>;
         };
     };
@@ -97,6 +98,8 @@
 &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans      &trans   &kp F10    &kp F11  &kp F12  &trans  &kp BACKSPACE
 &trans     &kp N0        &trans        &trans        &trans        &trans      &trans   &kp ENTER                            &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LG(K_NEXT) K_PREV>;
         };
 
         SYMBOL {
