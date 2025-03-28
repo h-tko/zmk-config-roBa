@@ -99,7 +99,7 @@
 &trans     &kp N0        &trans        &trans        &trans        &trans      &trans   &kp ENTER                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(K_NEXT) K_PREV>;
+            sensor-bindings = <&inc_dec_kp RGUI LGUI>;
         };
 
         SYMBOL {
