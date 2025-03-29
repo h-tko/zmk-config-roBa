@@ -13,6 +13,10 @@
     quick-tap-ms = <0>;
 };
 
+&inc_dec_kp {
+    tap-ms = <20>;  // デフォルト5msから延長
+};
+
 / {
     combos {
         compatible = "zmk,combos";
