@@ -140,7 +140,7 @@
 &trans          &trans                  &trans  &trans                   &trans   &trans      &trans  &trans                                                   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
+            sensor-bindings = <&inc_dec_kp LC(UP_ARROW) LC(UP_ARROW)>;
         };
 
         MOUSE {
